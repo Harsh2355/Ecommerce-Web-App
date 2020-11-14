@@ -1,0 +1,100 @@
+:root{
+  --mainBlue:#2a2a72;
+  --lightBlue:#009ffd;
+  --mainWhite:#f3f3f3;
+  --mainDark:#232528;
+  --mainYellow:#ffa400;
+  --mainPink:#f4adb6;
+}
+
+body{
+  font-family: 'Oswald', sans-serif !important;
+  background: var(--mainWhite) !important;
+  color: var(--mainDark) !important;
+}
+
+.text-title{
+  font-family: 'David Libre', serif;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  color:var(--mainPink);
+}
+
+.details-title{
+  font-family: 'David Libre', serif;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  color:#d3d2cd;
+  text-decoration: overline;
+}
+
+.text-blue{
+  color:var(--mainBlue);
+}
+
+.text-bright{
+  color:var(--lightBlue)
+}
+
+.details-type{
+  color:var(--mainPink);
+}
+
+.details{
+  color: #d3d2cd;
+  text-transform: capitalize;
+}
+
+.cart-container{
+  background-color: var(--mainPink);
+  color:var(--mainWhite);
+}
+.cart-heading{
+  border: var(--mainWhite) 1px solid;
+}
+
+.btn-pink{
+  background: transparent !important;
+  color:var(--mainPink) !important;
+  font-size:1.0rem;
+  border: 1px solid var(--mainPink) !important;
+  border-radius: 0% !important;
+}
+.btn-pink:hover{
+  background: var(--mainPink) !important;
+  color: var(--mainWhite) !important;
+}
+
+.cart-icon{
+  color: var(--mainPink);
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.cart-icon:hover{
+  font-size: 1.4rem !important;
+}
+
+.clear-cart-btn{
+  padding:2px 5px 5px 5px;
+  text-transform: capitalize;
+  font-size: 1rem;
+  background:red;
+  color: var(--mainWhite);
+  border:1px solid var(--mainWhite);
+  box-shadow: 3px 3px 3px var(--mainPink);
+}
+
+.clear-cart-btn:hover{
+  background:var(--mainWhite) !important;
+  color: var(--mainPink) !important;
+  border:1px solid var(--mainPink) !important;
+  box-shadow: 3px 3px 3px var(--mainWhite) !important;
+}
+
+.default{
+  font-family: 'David Libre', serif;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  color:var(--mainDark);
+}
